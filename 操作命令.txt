@@ -2,6 +2,8 @@ git add .
 git commit -m "描述你的修改内容"
 git push
 
+git pull
 
 
+git@github.com:usernamelll/notebook.git
 
