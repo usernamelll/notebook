@@ -1,5 +1,7 @@
-@echo off
-chcp 65001 >nul 2>&1  :: 切换到UTF-8编码模式（解决控制台显示乱码）
+﻿@echo off
+:: 强制切换控制台为UTF-8编码（65001），并隐藏切换提示
+chcp 65001 >nul
+
 echo 正在执行git add . ...
 git add .
 
