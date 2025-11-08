@@ -12,5 +12,11 @@ git commit -m "%commit_msg%"
 echo 正在执行git push ...
 git push
 
+:: 加入显示提交记录的命令
+echo.
+echo 提交记录如下：
+git log --oneline
+
 echo 操作完成！
 pause
+    
