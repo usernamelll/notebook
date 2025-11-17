@@ -1334,6 +1334,7 @@ class ImprovedFocusTimeManager(FocusTimeManager):
             self.bar_chart.axes.yaxis.grid(True, linestyle="--", alpha=0.7)
             self.bar_chart.axes.set_axisbelow(True)
 
+            # 设置x轴标签为横向显示（不旋转）
             plt.xticks(rotation=0, ha="center", fontsize=9)
             plt.yticks(fontsize=9)
 
